@@ -1,0 +1,32 @@
+{
+  "name": "groover",
+  "version": "1.0.0",
+  "description": "music web application",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "start": "npm run build && nodemon --exec npx babel-node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloStrapasson/Groover.git"
+  },
+  "author": "Pablo Strapasson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloStrapasson/Groover/issues"
+  },
+  "homepage": "https://github.com/PabloStrapasson/Groover#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10"
+  }
+}
