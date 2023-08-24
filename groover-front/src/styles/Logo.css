@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'); /*Cabin*/
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#logo img{
+    height: 80px;
+}

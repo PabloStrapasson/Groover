@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+/*#Menu_bar{
+    background-color: aquamarine;
+}*/
+
+.Nav_bar{
+    width: 90%;
+    color:white;
+    margin-left: 7%;
+}
+
+.Nav_bar img{
+    width: 25px;
+    height: 25px;
+}
+
+.Menu_button{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: Cabin;
+    font-size: 15pt;
+    cursor: pointer;
+    margin-bottom: 10pt;
+}
+
+.Menu_button p{
+    margin-left: 10px;
+}
+
+#home{
+    margin-top: 5pt;
+    
+}

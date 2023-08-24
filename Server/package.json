@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d build",
+    "build": "babel App.js -d build",
     "start": "npm run build && nodemon --exec npx babel-node App.js"
   },
   "repository": {
