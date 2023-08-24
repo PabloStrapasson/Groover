@@ -4,18 +4,18 @@
     background-color: aquamarine;
 }*/
 
-.Nav_bar{
+.Nav-bar{
     width: 90%;
     color:white;
-    margin-left: 7%;
+    margin-left: 8%;
 }
 
-.Nav_bar img{
+.Nav-bar img{
     width: 25px;
     height: 25px;
 }
 
-.Menu_button{
+.Menu-button{
     width: 100%;
     height: 3rem;
     display: flex;
@@ -26,7 +26,7 @@
     margin-bottom: 10pt;
 }
 
-.Menu_button p{
+.Menu-button p{
     margin-left: 10px;
 }
 

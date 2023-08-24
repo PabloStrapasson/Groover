@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Musicas Curtidas",
+        "type": "Playlist",
+        "img": "",
+        "autor": "Groover"
+    },
+    {
+        "name": "Musicas para Treinar",
+        "type": "Playlist",
+        "img": "",
+        "autor": "Pablo Strapasson"
+    },
+    {
+        "name": "The Dark Side of the Moon",
+        "type": "Album",
+        "img": "",
+        "autor": "Pink Floyd"
+    },
+    {
+        "name": "Podcast Aleatório",
+        "type": "Podast",
+        "img": "",
+        "autor": "Podcast"
+    },
+    {
+        "name": "Unplugged",
+        "type": "Playlist",
+        "img": "",
+        "autor": "Pablo Strapasson"
+    }
+]
