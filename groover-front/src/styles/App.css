@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap'); /*Inter*/
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'); /*Cabin*/
 /*
 Cores:
   azul: #264CF5
@@ -10,22 +9,71 @@ Cores:
   display: flex;
   flex-direction: row;
   background-color: rgb(14, 14, 14);
+  overflow: hidden;
 }
 
 .Menu{
   background-color: #222222;
-  border-radius: 10pt;
+  border-radius: 5pt;
   margin: 5px;
   width: 25%;
-  height: auto;
+  height: 84.1vh;
 }
 
 .Main {
   background-color: #222222;
-  border-radius: 10pt;
+  border-radius: 5pt;
   margin: 5px;
   width: 80%;
-  height: 84vh;
+  height: 84.1vh;
+}
+
+#Library{
+  font-family: Cabin;
+  font-size: 15pt;
+  color:white;
+  height: 100%;
+}
+
+#Library-title{
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  cursor: default;
+}
+
+#Library-title p{
+  margin-left: 10px;
+}
+
+#Library-title img{
+  width: 25px;
+  height: 25px;
+}
+
+#Library-playlist{
+  height: calc(50vh - 15vh);
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track 
+::-webkit-scrollbar-track {
+  background: #9C9A9A; 
+}*/
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 5pt;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 .App-logo {

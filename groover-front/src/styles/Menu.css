@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
-
 /*#Menu_bar{
     background-color: aquamarine;
 }*/
 
 .Nav-bar{
-    width: 90%;
+    width: auto;
     color:white;
     margin-left: 8%;
 }
