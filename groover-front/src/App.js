@@ -3,12 +3,15 @@ import './styles/Logo.css';
 import './styles/Menu.css';
 import './styles/Player.css';
 import './styles/Playlist.css';
+import './styles/Music.css';
 import lib from './images/lib.png';
-import Logo from './components/Logo';
+//import Logo from './components/Logo';
 import Menu from './components/Menu';
 import Player from './components/Player';
 import Playlist from './components/Playlist';
+import Music from './components/Music';
 
+var cont = 1
 const music_list = await loadJSON('musics.json')
 const playlist_list = await loadJSON('playlists.json')
 //console.log('music: '+ music_list)
@@ -27,7 +30,7 @@ function App() {
         <Menu/>
         <div id='Library'>
           <div id='Library-title'>
-            <img src={lib}></img>
+            <img src={lib} alt=''></img>
             <p>Sua Biblioteca</p>
           </div>
           <div id='Library-playlist'>
@@ -38,9 +41,16 @@ function App() {
         </div>
       </div>
       <div className="Main">
-        <Logo/>
+        <div id='Main-header'>
+            <h1>Músicas Curtidas</h1>
+        </div>
+        <div id='Music-list'>
+          {music_list.map((musics) => {
+              return <Music name={musics.name} artist={musics.artist} album={musics.album} duration={musics.duration}/>
+          })}
+        </div>
       </div>
-      <Player/>
+      <Player name={music_list[2].name} artist={music_list[2].artist} album={music_list[2].album} duration={music_list[2].duration}/>
     </div>
   );
 }

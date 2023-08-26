@@ -6,4 +6,36 @@
     position: fixed;
     background-color: rgb(14, 14, 14);;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Player-music{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Player-music-image{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Player-music-image img{
+    width: 50px;
+}
+
+#Player-bar{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+#Player-volume{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
 }

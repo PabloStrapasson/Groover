@@ -1,0 +1,50 @@
+.Music-item{
+    width: auto;
+    height: 55px;
+    font-family: Cabin;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    border-radius: 5pt;
+    cursor: pointer;
+    padding: 5pt;
+}
+.Music-item:hover{
+    background-color: #2E2E2E;
+}
+
+.Music-image{
+    width: 8%;
+}
+
+.Music-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5pt;
+    margin-right: 10pt;
+}
+
+.Music-name{
+    color: white;
+    /*height: 15px;*/
+}
+
+/*.Music-artist{
+    height: 15px;
+}*/
+
+.Music-infos{
+    flex-direction: column;
+    color: #5D5D5D;
+    align-content: center;
+    width: 50%;
+}
+
+.Music-album{
+    color: #5D5D5D;
+    width: 50%;
+}
+
+.Music-duration{
+    color: #5D5D5D;
+}

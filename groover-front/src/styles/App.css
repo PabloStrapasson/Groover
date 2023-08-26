@@ -4,6 +4,8 @@ Cores:
   azul: #264CF5
   branco: #BCB7DE
   preto: #000000
+  cinza texto: #5D5D5D
+  cinza hover: #2E2E2E
 */
 .App {
   display: flex;
@@ -74,6 +76,16 @@ Cores:
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+#Main-header{
+  margin-left: 10pt;
+  color: white;
+}
+
+#Music-list{
+  height: calc(85vh - 15vh);
+  overflow: auto;
 }
 
 .App-logo {
