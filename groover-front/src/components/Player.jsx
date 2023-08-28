@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import PlayerBar from './PlayerBar'
+import PlayerVolume from './PlayerVolume'
 import album from '../images/By_the_Way.jpg'
 
 export default class Player extends Component {
@@ -20,13 +22,9 @@ export default class Player extends Component {
           </div>
         </div>
 
-        <div id='Player-bar'>
-          Player
-        </div>
+        <PlayerBar/>
         
-        <div id='Player-volume'>
-          Volume
-        </div>
+        <PlayerVolume/>
       </div>
     )
   }
