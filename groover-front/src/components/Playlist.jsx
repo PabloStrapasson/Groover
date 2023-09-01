@@ -1,22 +1,21 @@
-import React, { Component } from 'react'
 import album from '../images/Dark_Side_of_the_Moon.png'
 
-export default class Playlist extends Component {
-  render() {
+export default function Playlist({playlist_id, onClick, title, type, author}){
+
     return (
-        <div className='Playlist-item'>
-            <div className='Playlist-image'>
-                <img src={album} alt=''></img>
+        <div className='Playlist-item' id={playlist_id} onClick={onClick}>
+            <div className='Playlist-image' id={playlist_id}>
+                <img src={album} alt='' id={playlist_id}></img>
             </div>
-            <div className='Playlist-infos'>
-                <div className='Playlist-title'>
-                    <spam>{this.props.title}</spam>
+            <div className='Playlist-infos' id={playlist_id}>
+                <div className='Playlist-title' id={playlist_id}>
+                    <spam id={playlist_id}>{title}</spam>
                 </div>
-                <div className='Playlist-type'>
-                    <spam>{this.props.type} . {this.props.author}</spam>
+                <div className='Playlist-type' id={playlist_id}>
+                    <spam id={playlist_id}>{type} . {author}</spam>
                 </div>
             </div>
         </div>
     )
-  }
+  
 }

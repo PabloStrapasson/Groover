@@ -9,11 +9,11 @@ export default class Menu extends Component {
       <div id='Menu-bar'>
         <Logo/>
         <div className='Nav-bar'>
-          <div id='home' className='Menu-button' onClick={()=> {console.log("home")}}>
+          <div id='home' className='Menu-button' onClick={this.props.clickInicial}>
             <img src={home} alt='Home'></img>
             <p>Início</p>
           </div>
-          <div id='search' className='Menu-button' onClick={()=> {console.log("search")}}>
+          <div id='search' className='Menu-button' onClick={this.props.setOpenSearch}>
             <img src={search} alt='Search'></img>
             <p>Buscar</p>
           </div>

@@ -11,8 +11,8 @@ export default class PlayerBar extends Component {
         <div id='Control-Play-bar'>
             <img src={previous} alt='previous' className='Next-Previous-button'></img>
             {this.props.itsPlaying
-                ?<img src={pause} alt='play' className='Play-Pause-button'></img>
-                :<img src={play} alt='play' className='Play-Pause-button'></img>
+                ?<img src={pause} alt='play' className='Play-Pause-button' onClick={this.props.clickPlay}></img>
+                :<img src={play} alt='play' className='Play-Pause-button' onClick={this.props.clickPlay}></img>
             }
             <img src={next} alt='next' className='Next-Previous-button'></img>
         </div>

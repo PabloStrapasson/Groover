@@ -48,7 +48,7 @@
 
 .Play-Pause-button:active{
     width: 33px;
-    height: 33px;;
+    height: 33px;
 }
 
 .Next-Previous-button{
@@ -105,87 +105,51 @@
     margin-right: 5px;
 }
 
+.Volume-icon:active{
+    width: 23px;
+}
+
 #Volume-bar{
     margin-right: 10px;
     display: flex;
     align-items: center;
 }
 
-.Volume-bar{
-    background-color: #555;
-    border-radius: 5px;
-    height: 5px;
+#Slider{
+    -webkit-appearance: none;
     width: 100%;
+    height: 5px;
     outline: none;
+    border-radius: 5px;
+    background: #555555;
 }
-/*
-.Volume-bar::-webkit-slider-thumb{
-    appearance: none;
+
+#Slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    z-index: 3;
     background: #264CF5;
-    cursor: pointer;
-}
-*//*
-.Volume-bar{
-    /*#264CF5
-    width: 100%;
-    height: 5px;
-    border-radius: 50rem;
-    background: #555;
-    outline: none;
 }
 
-.Volume-bar::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: #264CF5;
-    cursor: pointer;
-}
-
-/*
-.Volume-bar {
-    -webkit-appearance: none;
-    width: 100%;
+#slider::-webkit-slider-runnable-track{
     height: 5px;
     border-radius: 5px;
-    background: #555;
-    outline: none;
-    accent-color: #264CF5;
+    background-color: aquamarine;
 }
-  
-.Volume-bar::-webkit-slider-thumb {
+
+#Slider::-moz-slider-thumb{
     -webkit-appearance: none;
-    appearance: none;
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    z-index: 3;
     background: #264CF5;
-    cursor: pointer;
-    box-shadow: inset 0 0 5px #264CF5;
 }
 
-.Volume-bar::-webkit-slider-runnable-track{
-    background: #264CF5;
+#slider::-moz-slider-runnable-track{
     height: 5px;
+    border-radius: 5px;
+    background-color: aquamarine;
 }
-*/
-
-/*
-.Volume-bar::-moz-range-progress{
-    background: #264CF5;
-    width: 100%;
-    height: 5px;
-}
-
-.Volume-bar::-moz-range-thumb{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #264CF5;
-    cursor: pointer;
-    -webkit-appearance: none;
-}*/

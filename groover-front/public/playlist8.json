@@ -1,0 +1,76 @@
+{
+    "title": "The Dark Side of the Moon",
+    "musics":
+    [
+        {
+            "name": "One",
+            "img": "",
+            "artist": "Metallica",
+            "album": "And Justice for All...",
+            "duration": "7:27"
+        },
+        {
+            "name": "Rock You Like a Hurricane",
+            "img": "",
+            "artist": "Scorpions",
+            "album": "Love at First Sting",
+            "duration": "4:12"
+        },
+        {
+            "name": "Hell's Bell's",
+            "img": "",
+            "artist": "AC/DC",
+            "album": "Back in Black",
+            "duration": "5:12"
+        },
+        {
+            "name": "Time",
+            "img": "",
+            "artist": "Pink Floyd",
+            "album": "The Dark Side of the Moon",
+            "duration": "6:53"
+        },
+        {
+            "name": "Sultans of Swing",
+            "img": "",
+            "artist": "Dire Straits",
+            "album": "Dire Straits",
+            "duration": "5:48" 
+        },
+        {
+            "name": "Can't Stop",
+            "img": "",
+            "artist": "Red Hot Chilli Peppers",
+            "album": "By the Way",
+            "duration": "4:29"
+        },
+        {
+            "name": "Patience",
+            "img": "",
+            "artist": "Guns n' Roses",
+            "album": "G N' R Lies",
+            "duration": "5:54"
+        },
+        {
+            "name": "The Unforgiven",
+            "img": "",
+            "artist": "Metallica",
+            "album": "Metallica",
+            "duration": "6:26"
+        },
+        {
+            "name": "Mr Crowley",
+            "img": "",
+            "artist": "Ozzy Osbourne",
+            "album": "Blizzard of Ozz",
+            "duration": "5:03"
+        },
+        {
+            "name": "Jump",
+            "img": "",
+            "artist": "Van Halen",
+            "album": "1984",
+            "duration": "4:02"
+        }
+    ]
+}
